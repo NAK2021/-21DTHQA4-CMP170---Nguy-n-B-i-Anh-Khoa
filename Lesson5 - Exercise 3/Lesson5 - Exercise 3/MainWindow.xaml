@@ -1,0 +1,42 @@
+﻿<Window x:Class="Lesson5___Exercise_3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lesson5___Exercise_3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TabControl x:Name="Tabs1" Margin="80,53,72,92">
+            <TabItem Header="Name">
+                <Grid Background="#FFE5E5E5" Margin="-1,0,1,0" Height="260">
+                    <Label FontFamily="Arial Black" Content="Hello World" Margin="10,10,528,210">
+                    </Label>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Image">
+                <Grid Background="#FFE5E5E5">
+                    <Image Source="C:\Users\NAK\source\repos\Lesson5 - Exercise 3\Lesson5 - Exercise 3\images\coffee.webp"></Image>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Hotels">
+                <Grid Background="#FFE5E5E5">
+                    <Image Source="C:\Users\NAK\source\repos\Lesson5 - Exercise 3\Lesson5 - Exercise 3\images\Hotel.jpg"></Image>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Contact us">
+                <Grid Background="#FFE5E5E5">
+                    <Label Content="Name: " Margin="182,42,384,172">
+
+                    </Label>
+                    <TextBlock  Margin="240,44,160,175" Background="White"></TextBlock>
+                    <Label Content="Email: " Margin="187,113,402,93"/>
+                    <TextBlock  Margin="240,110,160,110" Background="White"/>
+                    <Button Content="OK" Margin="278,177,278,43"></Button>
+                </Grid>
+            </TabItem>
+        </TabControl>
+        <Button x:Name="Button1" Content="Tabs Click" HorizontalAlignment="Left" Margin="340,362,0,0" VerticalAlignment="Top" Height="43" Width="128" Click="Button1_Click"/>
+
+    </Grid>
+</Window>
