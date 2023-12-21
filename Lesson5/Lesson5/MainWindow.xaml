@@ -1,0 +1,65 @@
+﻿<Window x:Class="Lesson5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lesson5"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ListBox Name="listBox1" Margin="201,94,268,110">
+            <ListBoxItem Background="#FFFFA6A6">
+                <CheckBox Name="CoffieCheckBox" >
+                <StackPanel Orientation="Horizontal">
+                        <Image Source="C:\Users\NAK\source\repos\Lesson5\Lesson5\images\coffee.webp" Height="30"></Image>
+                    <TextBlock Text="Coffee" Margin="10px,10px,0px,10px"  FontFamily="BankGothic Md BT" FontWeight="Bold"></TextBlock>
+                </StackPanel>
+                </CheckBox>
+            </ListBoxItem>
+            <ListBoxItem  Background="#FFBBBBBB" >
+                <CheckBox Name="TeaCheckBox">
+                <StackPanel Orientation="Horizontal">
+                        <Image Source="C:\Users\NAK\source\repos\Lesson5\Lesson5\images\tea.jpg" Height="30"></Image>
+                    <TextBlock Text="Hot Tea" Margin="10px,10px,0px,10px"  FontFamily="Segoe UI Semibold"></TextBlock>
+                </StackPanel>
+                </CheckBox>
+            </ListBoxItem>
+            <ListBoxItem Background="#FFE3E9FF" Foreground="#FFA000FF" FontFamily="Showcard Gothic">
+                <CheckBox Name="OrangeCheckBox">
+                <StackPanel Orientation="Horizontal">
+                        <Image Source="C:\Users\NAK\source\repos\Lesson5\Lesson5\images\orangeJuice.jpg" Height="30"></Image>
+                    <TextBlock Text="Orange Juice" Margin="10px,10px,0px,10px"></TextBlock>
+                </StackPanel>
+                </CheckBox>
+            </ListBoxItem>
+            <ListBoxItem  Background="#FF56A9FF" FontFamily="Snap ITC" Foreground="#FF0D9A00">
+                <CheckBox Name="MilkCheckBox">
+                <StackPanel Orientation="Horizontal">
+                        <Image Source="C:\Users\NAK\source\repos\Lesson5\Lesson5\images\milk.jpg" Height="30"></Image>
+                    <TextBlock Text="Milk" Margin="10px,10px,0px,10px"></TextBlock>
+                </StackPanel>
+                </CheckBox>
+            </ListBoxItem>
+            <ListBoxItem  Background="#FFE3E9FF" Foreground="#FF0022FF" FontFamily="Ravie">
+                <CheckBox Name="IcedTeaCheckBox">
+                <StackPanel Orientation="Horizontal">
+                        <Image Source="C:\Users\NAK\source\repos\Lesson5\Lesson5\images\Icedtea.jpg" Height="30"></Image>
+                    <TextBlock Text="Iced Tea" Margin="10px,10px,0px,10px"></TextBlock>
+                </StackPanel>
+                </CheckBox>
+            </ListBoxItem>
+            <ListBoxItem  Background="#FF939393" Foreground="#FFFFAE4F" FontFamily="Monotype Corsiva">
+                <CheckBox Name="ShakeCheckBox">
+                <StackPanel Orientation="Horizontal">
+                        <Image Source="C:\Users\NAK\source\repos\Lesson5\Lesson5\images\shake.jpg" Height="30"></Image>
+                    <TextBlock Text="Mango Shake" Margin="10px,10px,0px,10px"></TextBlock>
+                </StackPanel>
+                </CheckBox>
+            </ListBoxItem>
+
+        </ListBox>
+        <TextBox HorizontalAlignment="Left" Height="26" Margin="200,63,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="171" Name="TextBox1" BorderThickness="2,2,1,1"/>
+        <Button Content="Add Item" HorizontalAlignment="Left" Height="26" Margin="437,63,0,0" VerticalAlignment="Top" Width="95" Click="Button_Click"/>
+
+    </Grid>
+</Window>
