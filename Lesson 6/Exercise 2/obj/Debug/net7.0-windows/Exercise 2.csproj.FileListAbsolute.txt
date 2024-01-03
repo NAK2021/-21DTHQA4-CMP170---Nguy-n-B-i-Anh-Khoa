@@ -1,0 +1,22 @@
+C:\Users\NAK\source\repos\Lesson 6\Exercise 2\bin\Debug\net7.0-windows\Exercise 2.exe
+C:\Users\NAK\source\repos\Lesson 6\Exercise 2\bin\Debug\net7.0-windows\Exercise 2.deps.json
+C:\Users\NAK\source\repos\Lesson 6\Exercise 2\bin\Debug\net7.0-windows\Exercise 2.runtimeconfig.json
+C:\Users\NAK\source\repos\Lesson 6\Exercise 2\bin\Debug\net7.0-windows\Exercise 2.dll
+C:\Users\NAK\source\repos\Lesson 6\Exercise 2\bin\Debug\net7.0-windows\Exercise 2.pdb
+C:\Users\NAK\source\repos\Lesson 6\Exercise 2\obj\Debug\net7.0-windows\MainWindow.g.cs
+C:\Users\NAK\source\repos\Lesson 6\Exercise 2\obj\Debug\net7.0-windows\View\MainPage.g.cs
+C:\Users\NAK\source\repos\Lesson 6\Exercise 2\obj\Debug\net7.0-windows\App.g.cs
+C:\Users\NAK\source\repos\Lesson 6\Exercise 2\obj\Debug\net7.0-windows\Exercise 2_MarkupCompile.cache
+C:\Users\NAK\source\repos\Lesson 6\Exercise 2\obj\Debug\net7.0-windows\Exercise 2_MarkupCompile.lref
+C:\Users\NAK\source\repos\Lesson 6\Exercise 2\obj\Debug\net7.0-windows\MainWindow.baml
+C:\Users\NAK\source\repos\Lesson 6\Exercise 2\obj\Debug\net7.0-windows\View\MainPage.baml
+C:\Users\NAK\source\repos\Lesson 6\Exercise 2\obj\Debug\net7.0-windows\Exercise 2.g.resources
+C:\Users\NAK\source\repos\Lesson 6\Exercise 2\obj\Debug\net7.0-windows\Exercise 2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NAK\source\repos\Lesson 6\Exercise 2\obj\Debug\net7.0-windows\Exercise 2.AssemblyInfoInputs.cache
+C:\Users\NAK\source\repos\Lesson 6\Exercise 2\obj\Debug\net7.0-windows\Exercise 2.AssemblyInfo.cs
+C:\Users\NAK\source\repos\Lesson 6\Exercise 2\obj\Debug\net7.0-windows\Exercise 2.csproj.CoreCompileInputs.cache
+C:\Users\NAK\source\repos\Lesson 6\Exercise 2\obj\Debug\net7.0-windows\Exercise 2.dll
+C:\Users\NAK\source\repos\Lesson 6\Exercise 2\obj\Debug\net7.0-windows\refint\Exercise 2.dll
+C:\Users\NAK\source\repos\Lesson 6\Exercise 2\obj\Debug\net7.0-windows\Exercise 2.pdb
+C:\Users\NAK\source\repos\Lesson 6\Exercise 2\obj\Debug\net7.0-windows\Exercise 2.genruntimeconfig.cache
+C:\Users\NAK\source\repos\Lesson 6\Exercise 2\obj\Debug\net7.0-windows\ref\Exercise 2.dll
