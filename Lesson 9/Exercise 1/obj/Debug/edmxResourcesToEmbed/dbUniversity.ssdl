@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="UniversityModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Student">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="name_" Type="nvarchar" MaxLength="50" />
+    <Property Name="sex" Type="nvarchar" MaxLength="20" />
+    <Property Name="school_year" Type="nvarchar" MaxLength="50" />
+    <Property Name="dob" Type="nvarchar" MaxLength="20" />
+    <Property Name="phone_num" Type="nvarchar" MaxLength="15" />
+    <Property Name="department_id" Type="nvarchar" MaxLength="10" />
+    <Property Name="tot_cred" Type="int" />
+    <Property Name="status_" Type="nvarchar" MaxLength="50" />
+    <Property Name="picture" Type="image" />
+  </EntityType>
+  <EntityContainer Name="UniversityModelStoreContainer">
+    <EntitySet Name="Student" EntityType="Self.Student" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
